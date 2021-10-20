@@ -14,14 +14,14 @@
 		</header>
 		<form>
 			<div id="nameInput">
-				<input type="text" class="infoInput" name="firstName" placeholder="First Name" required>
-				<input type="text" class="infoInput" name="lastName" placeholder="Last Name" required>
+				<input type="text" class="infoInput" id="firstName" name="firstName" placeholder="First Name" required>
+				<input type="text" class="infoInput" id="lastName" ="lastName" placeholder="Last Name" required>
 			</div>
 			<div>
-				<input type="email" class="infoInput" name="emailAdd" placeholder="Email Address" required>
+				<input type="email" class="infoInput" id="emailAdd" name="emailAdd" placeholder="Email Address" required>
 			</div>
 			<div>	
-				<input type="text" class="infoInput" name="userName" placeholder="Username" required>
+				<input type="text" class="infoInput" id="userName" name="userName" placeholder="Username" required>
 			</div>
 			<div>
 				<input type="password" id="password" name="password" placeholder="Password" required>
@@ -29,6 +29,11 @@
 			<div>
 				<input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
 				<span id="message"></span>
+			</div>
+			<div>
+				<input type="checkbox" id="termsConditionPolicy" name="termsConditionPolicy">
+				<label for="termsConditionPolicy">I agree to the Terms and Conditions and the Privacy Policy</label>
+			</div>
 			</div>
 			<div>
 				<input type="submit" value="Sign Up">
