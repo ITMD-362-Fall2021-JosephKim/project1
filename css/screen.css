@@ -53,4 +53,13 @@ label{
   margin: 5px;
   padding-top: 0.2em;
   padding-bottom: 0.2em; 
+  font-size: 18px;
+}
+
+input{
+  line-height: 24px;
+}
+
+#checkboxDiv{
+  padding-bottom: 0.5em;
 }

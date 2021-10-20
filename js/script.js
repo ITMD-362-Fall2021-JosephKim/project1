@@ -1,7 +1,14 @@
 /*Confirm_password JS*/
-$('#password, #confirm_password').on('keyup', function () {
-    if ($('#password').val() == $('#confirm_password').val()) {
-        $('#message').html('Matching').css('color', 'green');
-    } else 
-        $('#message').html('Not Matching').css('color', 'red');
-});
+function validateForm() {
+    //collect form data in JavaScript variables
+    var pw = document.getElementById("password").value;
+    var cpw = document.getElementById("confirm_password").value;
+    
+    if(pw != cpw) {
+      document.getElementById("message2").innerHTML = "**Passwords are not same";
+      return false;
+    } else {
+      alert ("Your password created successfully");
+      document.write("JavaScript form has been submitted successfully");
+    }
+ }
