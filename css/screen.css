@@ -1,5 +1,5 @@
 html {
-   font-family: "Gill Sans", sans-serif;
+   font-family: Andale Mono, monospace;
    font-size: 16px;
    background-color: #0e0e0ee6;
    color: #FFFFFF;
@@ -63,6 +63,12 @@ input{
 
 #checkboxDiv{
   padding-bottom: 0.5em;
+}
+
+h2{
+  font-size: 24px;
+  padding-bottom: 0.3em;
+  font-family: Andale Mono, monospace;
 }
 
 @media only screen and (min-width: 600px) {
