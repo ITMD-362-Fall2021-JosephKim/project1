@@ -4,3 +4,13 @@ html {
    background-color: #31157B;
    color: #FFFFFF;
 }
+
+header{
+    font-size: 36px;
+    margin: 15px 0px 30px 15px;
+}
+
+#sign_up{
+    margin: 400px;
+    
+}
