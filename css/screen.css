@@ -11,7 +11,7 @@ header{
 }
 
 .sign_up {
-    width: 450px;
+    width: 300px;
     padding: 20px;
     margin: 10% auto;
     text-align: center;
@@ -64,6 +64,16 @@ input{
   padding-bottom: 0.5em;
 }
 
-span {
-	color: #FFFFFF;
+@media only screen and (min-width: 600px) {
+
+.sign_up {
+    width: 400px;
+}
+}
+
+@media only screen and (min-width: 800px) {
+
+.sign_up {
+    width: 500px;
+}
 }
