@@ -21,5 +21,36 @@ header{
 }
 
 #submit {
+  background-color: #725252;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  width: 25%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
 
+.infoInput{
+  margin: 3px;
+}
+
+#password{
+  margin: 3px;
+}
+
+#confirm_password{
+  margin: 3px;
+}
+
+#termsConditionPolicy{
+  margin: 5px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em; 
+}
+
+label{
+  margin: 5px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em; 
 }
