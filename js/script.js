@@ -1,14 +1,11 @@
 /*Confirm_password JS*/
-function validateForm() {
-    //collect form data in JavaScript variables
-    var pw = document.getElementById("password").value;
-    var cpw = document.getElementById("confirm_password").value;
-    
-    if(pw != cpw) {
-      document.getElementById("message2").innerHTML = "**Passwords are not same";
-      return false;
-    } else {
-      alert ("Your password created successfully");
-      document.write("JavaScript form has been submitted successfully");
-    }
- }
+function matchPassword() {
+  var pw1 = document.getElementById("password");
+  var pw2 = document.getElementById("confirm_password");
+  if(pw1 != pw2)
+  {	
+  	alert("Passwords did not match");
+  } else {
+  	alert("Password created successfully");
+  }
+}
