@@ -1,13 +1,11 @@
 /*I used 1.25 ratio modular scale
 https://www.modularscale.com/?1&em&1.25*/
-
 html {
    font-family: Andale Mono, monospace;
    font-size: 16px;
    background-color: #0e0e0ee6;
    color: #FFFFFF;
 }
-
 header{
     background-color: #0e0e0ee6;
     font-size: 36px;
@@ -16,11 +14,9 @@ header{
     padding-bottom:6px; 
 
 }
-
 h1{
   margin: 15px 0px 30px 15px;
 }
-
 .sign_up {
     width: 300px;
     padding: 20px;
@@ -30,7 +26,6 @@ h1{
     border: solid;
     border-width: 0.3em;
 }
-
 #submit {
   background-color: #725252;
   color: white;
@@ -41,46 +36,37 @@ h1{
   padding-top: 3px;
   padding-bottom: 3px;
 }
-
 .infoInput{
   margin: 3px;
 }
-
 #password{
   margin: 3px;
 }
-
 #confirm_password{
   margin: 3px;
 }
-
 #termsConditionPolicy{
   margin: 5px;
   padding-top: 0.2em;
   padding-bottom: 0.2em; 
 }
-
 label{
   margin: 5px;
   padding-top: 0.2em;
   padding-bottom: 0.2em; 
   font-size: 18px;
 }
-
 input{
   line-height: 1.25em;
 }
-
 #checkboxDiv{
   padding-bottom: 0.5em;
 }
-
 h2{
   font-size: 24px;
   padding-bottom: 0.3em;
   font-family: Andale Mono, monospace;
 }
-
 footer{
   font-family: Andale Mono, monospace;
   text-align: center;
@@ -89,14 +75,12 @@ footer{
   padding: 15px 0px 20px 0px ;
   margin: 4em 0 10px 0;
 }
-
 @media only screen and (min-width: 600px) {
 
 .sign_up {
     width: 400px;
 }
 }
-
 @media only screen and (min-width: 800px) {
 
 .sign_up {
