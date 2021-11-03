@@ -1,5 +1,6 @@
 /*I used 1.25 ratio modular scale
 https://www.modularscale.com/?1&em&1.25*/
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 html {
    font-family: Andale Mono, monospace;
    font-size: 16px;
@@ -9,10 +10,9 @@ html {
 header{
     background-color: #0e0e0ee6;
     font-size: 36px;
-	font-family: "Ceviche One", cursive;
+	font-family: 'Fruktur', cursive;
     padding-top: 12px;
     padding-bottom:6px; 
-
 }
 h1{
   margin: 15px 0px 30px 15px;
